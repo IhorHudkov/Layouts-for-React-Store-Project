@@ -1,0 +1,43 @@
+.button.button-primary {
+  background: #d1d1d1;
+  border-color: #d1d1d1;
+}
+
+.button.button-primary:hover {
+  background: #d1d1d1;
+  border-color: #d1d1d1;
+}
+
+.cart-empty {
+  width: 100%;
+  height: calc(100vh - 108px - 58px - 80px - 39px - 20px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 64px;
+}
+
+.cart-empty > img {
+  height: 70px;
+  margin-left: -1.5rem;
+}
+
+.cart-empty > span {
+  padding-top: 3rem;
+}
+
+.container {
+  position: relative;
+}
+/*# sourceMappingURL=cart_empty.css.map */
